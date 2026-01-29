@@ -8,9 +8,13 @@ export const NewOrderPage: React.FC = () => {
     <div className="min-h-screen bg-gray-50 p-4 md:p-8">
       {/* Cabeçalho da Página */}
       <div className="max-w-3xl mx-auto mb-6 flex items-center gap-3">
-        <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center text-orange-600 font-bold text-xl">
-          {/* Logo ou Ícone placeholder */}
-          SP
+        <div className="w-14 h-14 flex items-center justify-center">
+          {/* Logo Vic Marmitaria (arquivo em public/logo-vic.png) */}
+          <img
+            src="/logo-vic.png"
+            alt="Vic Marmitaria"
+            className="w-full h-full object-contain rounded-md"
+          />
         </div>
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Sistema de Pedidos</h1>
