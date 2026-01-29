@@ -4,7 +4,6 @@ import { SelectableGroup } from '../ui/SelectableGroup';
 import { OrderSummaryModal } from '../features/admin/OrderSummaryModal';
 
 // Tipos para facilitar a manutenção
-type PaymentMethod = 'pix' | 'credito' | 'debito' | 'dinheiro';
 type OrderType = 'feijoada' | 'marmita' | 'misto';
 
 type Marmita = {
